@@ -17,7 +17,7 @@
         <div id="recherche">
             <input type="text" id="searchInput" placeholder="Rechercher un Pokémon">
         </div>
-<!-- je cree une div afin de creer mes filtres pour la recherche par filtre -->
+        <!-- je cree une div afin de creer mes filtres pour la recherche par filtre -->
         <div id="filtre">
             <label for="typeFiltre">Filtrer par type :</label>
             <select id="typeFiltre">
@@ -43,10 +43,20 @@
                 <!-- Ajoutez d'autres options pour les différents types de Pokémon -->
             </select>
         </div>
-<!-- creation de ma div afin d'afficher ma liste de pokmon  -->
+        <!-- creation de ma div afin d'afficher ma liste de pokmon  -->
         <div id="pokemonList"></div>
-<!-- creation d'un div pour les details de mes pokemons  -->
-        <div id="pokemonDetails"></div>
+        <!-- creation d'un div pour les details de mes pokemons  -->
+        <div id="pokemonDetails">
+            <div id="pokemonDetails">
+                <h2 id="pokemonName"></h2>
+                <p id="pokemonNumber"></p>
+                <img id="pokemonImage" src="" alt="Pokemon Image">
+                <p id="pokemonTypes"></p>
+                <h3>Statistiques :</h3>
+                <ul id="pokemonStats"></ul>
+            </div>
+
+        </div>
         <script src="/app.js"></script>
     </body>
 
