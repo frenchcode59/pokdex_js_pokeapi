@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #recherche {
+    margin-bottom: 10px;
+  }
+  
+  #searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #filtre {
+    margin-bottom: 10px;
+  }
+  
+  #typeFiltre {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  #pokemonList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  #pokemonDetails {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style pour chaque carte de Pokémon dans la liste */
+  .pokemon-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-card h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .pokemon-card p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  

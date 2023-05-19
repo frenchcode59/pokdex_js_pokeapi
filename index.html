@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Document</title>
 </head>
 
@@ -12,11 +13,11 @@
 
     <body>
         <h1>Pokédex</h1>
-
+        <!-- je cree une div contenant ma barre de recherche  -->
         <div id="recherche">
             <input type="text" id="searchInput" placeholder="Rechercher un Pokémon">
         </div>
-
+<!-- je cree une div afin de creer mes filtres pour la recherche par filtre -->
         <div id="filtre">
             <label for="typeFiltre">Filtrer par type :</label>
             <select id="typeFiltre">
@@ -42,11 +43,11 @@
                 <!-- Ajoutez d'autres options pour les différents types de Pokémon -->
             </select>
         </div>
-
+<!-- creation de ma div afin d'afficher ma liste de pokmon  -->
         <div id="pokemonList"></div>
-
+<!-- creation d'un div pour les details de mes pokemons  -->
         <div id="pokemonDetails"></div>
-
+        <script src="/app.js"></script>
     </body>
 
 </html>
